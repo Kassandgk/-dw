@@ -1,0 +1,40 @@
+	getch();
+		exit(1);
+	}
+
+	bong();
+	closegraph();
+}
+	getch();
+		exit(1);
+	}
+
+	bong();
+	closegraph();
+}
+
+void bong()
+{
+	int mx, my, dx, dy, x, y, d = 0;
+	randomize();
+	do {
+		dx = random(3) - 1;
+	} while (!dx);
+	do {
+		dy = random(3) - 1;
+	} while (!dy);
+	mx = getmaxx();
+	my = getmaxy();
+	x = mx / 2;
+{
+	int mx, my, dx, dy, x, y, d = 0;
+	randomize();
+	do {
+		dx = random(3) - 1;
+	} while (!dx);
+	do {
+		dy = random(3) - 1;
+	} while (!dy);
+	mx = getmaxx();
+	my = getmaxy();
+	x = mx / 2;
